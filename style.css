@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: inherit;
+	outline: none;
+	border: 0;
+	font-family: sans-serif;
+	color: #757575;
+}
+
+.fa,
+h1,
+h2,
+h3,
+h4,
+h6 {
+	color: brown;
+}
+
+.shadow {
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wrapper {
+	max-width: 1400px;
+	margin: 16px auto 0 auto;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.container {
+	display: flex;
+	gap: 16px;
+}
+
+.flex-15 {
+	padding-left: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	margin: 15px 0;
+}
+
+h2 .head-text {
+	color: rgb(19, 105, 19);
+	padding: 16px 0;
+	font-size: 2em;
+}
+
+.icon-mg-16 {
+	margin-right: 16px;
+}
+
+.head-text i {
+	margin-right: 16px;
+}
+
+.current {
+	background-color: brown;
+	color: white;
+	padding: 4px 8px;
+	border-radius: 4px;
+}
+
+.left__avatar {
+	position: relative;
+}
+
+.left__avatar h2 {
+	position: absolute;
+	bottom: 0;
+	color: white;
+	padding-left: 16px;
+	margin: 10px 0;
+}
+
+.left__avatar img {
+	width: 445px;
+	height: 296px;
+}
+
+.right-bottom,
+.right-top {
+	padding: 16px;
+}
